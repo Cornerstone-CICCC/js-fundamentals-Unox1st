@@ -4,3 +4,13 @@ Write an anonymous function expression that stores a function in a variable call
 laugh(3);
 Returns: hahaha!
 */
+
+var laugh = function (num) {
+  var result = "";
+  for (var i = 0; i < num; i++) {
+    result += "ha";
+  }
+  return result + "!";
+};
+
+console.log(laugh(3));
